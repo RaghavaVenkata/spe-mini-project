@@ -1,7 +1,7 @@
 ---
 - name: Deploy a jar file
-  hosts: ubuntu18
-  remote_user: vaibhav
+  hosts: docker
+  remote_user: raghava
   tasks:
     - name: Copy jar file to home directory
       copy:
