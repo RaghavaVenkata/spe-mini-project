@@ -42,13 +42,13 @@ public class Calculator {
 
             switch(fun){
                 case 1:
-                    System.out.println("Square root of x = " + Calculator.sqt(num1));
+                    System.out.println("Square root of x = " + cal.sqt(num1));
                     break;
                 case 2:
-                    System.out.println("Factorial of x =" + Calculator.factorial(num1));
+                    System.out.println("Factorial of x =" + cal.factorial(num1));
                     break;
                 case 3:
-                    System.out.println("Natural log of x =" + Calculator.log(num1));
+                    System.out.println("Natural log of x =" + cal.log(num1));
                     break;
                 case 4:
                     try {
@@ -57,7 +57,7 @@ public class Calculator {
                     } catch (InputMismatchException error){
                         return;
                     }
-                    System.out.println("x power b = " + Calculator.power(num1, num2));
+                    System.out.println("x power b = " + cal.power(num1, num2));
                     break;
                 default:
                     System.out.print("Closing");
